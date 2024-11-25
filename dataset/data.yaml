@@ -1,0 +1,12 @@
+train:
+  - D:\embeddata\LabelMeToYoloSegmentation\dataset\Training\alu
+  - D:\embeddata\LabelMeToYoloSegmentation\dataset\Training\paper
+  - D:D:\embeddata\LabelMeToYoloSegmentation\dataset\Training\pet
+
+val:
+  - D:\embeddata\LabelMeToYoloSegmentation\dataset\Validation\alu
+  - D:\embeddata\LabelMeToYoloSegmentation\dataset\Validation\paper
+  - D:\embeddata\LabelMeToYoloSegmentation\dataset\Validation\pet
+
+nc: 3  # 클래스 개수
+names: ['캔', '종이', '페트병']  # 클래스 이름
